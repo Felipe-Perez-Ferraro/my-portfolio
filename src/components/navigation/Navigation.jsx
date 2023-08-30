@@ -131,7 +131,7 @@ function Navigation() {
           </a>
           <a
             className="socialLink"
-            href="https://github.com/Feliperto"
+            href="https://github.com/Felipe-Perez-Ferraro"
             target="_blank"
           >
             <FaGithubSquare />

@@ -56,8 +56,8 @@ function Education() {
             <span className="edSpan">(September 2022 - November 2022)</span>
           </div>
           <div>
-            <h2 className="edSubtitle">Java, Codecademy</h2>
-            <span className="edSpan">(January 2023 - March 2023)</span>
+            <h2 className="edSubtitle">Full Stack, Microverse</h2>
+            <span className="edSpan">(May 2023 - January 2024)</span>
           </div>
         </motion.div>
       </div>
