@@ -4,7 +4,6 @@ import html from "../../assets/html.png";
 import css from "../../assets/css.png";
 import javascript from "../../assets/js.png";
 import reactImg from "../../assets/react.png";
-import java from "../../assets/java.png";
 import baseDeDatos from "../../assets/base-de-datos.png";
 import ingles from "../../assets/ingles.png";
 import { motion } from "framer-motion";
@@ -100,24 +99,6 @@ function Skills() {
             <div>
               <img className="imgIcon" src={reactImg} alt="java" />
               <h2 className="skillsTitle">React.JS</h2>
-            </div>
-          </motion.div>
-
-          {/*JAVA CONTAINER*/}
-          <motion.div
-            className="css"
-            initial={{ scale: 0 }}
-            animate={{ scale: 1 }}
-            transition={{
-              delay: 0.7,
-              type: "spring",
-              stiffness: 260,
-              damping: 20,
-            }}
-          >
-            <div>
-              <img className="java imgIcon" src={java} alt="java" />
-              <h2 className="skillsTitle">Java</h2>
             </div>
           </motion.div>
 
