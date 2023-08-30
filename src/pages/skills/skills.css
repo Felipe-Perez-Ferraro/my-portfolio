@@ -1,0 +1,87 @@
+/*Gral options*/
+.skillsGral {
+    background-color: #374955;
+    height: 100vh;
+    padding: 60px 20px;
+}
+/**/
+
+/*Title*/
+.title {
+    font-size: 50px;
+    font-weight: 700;
+    color: #FFD933;
+    text-align: center;
+}
+/**/
+
+/*Skills*/
+.skillsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+
+.skillsTitle {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.imgIcon {
+    width: 50px;
+    cursor: pointer;
+}
+/**/
+
+/*Medias*/
+@media screen and (min-width: 1440px) {
+    
+    /*Title*/
+    .title {
+        font-size: 60px;
+    }
+    /**/
+
+    /*Skills*/
+    .skillsContainer {
+        padding: 150px 80px 0 80px;
+    }
+
+    .skillsTitle {
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    .imgIcon {
+        width: 70px;
+        cursor: pointer;
+    }
+    /**/
+}
+
+@media screen and (min-width: 2560px) {
+    
+    /*Title*/
+    .title {
+        font-size: 70px;
+    }
+    /**/
+
+    /*Skills*/
+    .skillsContainer {
+        padding: 250px 200px 0 200px;
+    }
+
+    .skillsTitle {
+        font-size: 50px;
+        font-weight: 700;
+    }
+
+    .imgIcon {
+        width: 90px;
+        cursor: pointer;
+    }
+    /**/
+}

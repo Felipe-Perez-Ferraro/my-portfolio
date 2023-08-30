@@ -1,0 +1,103 @@
+/*gral options*/
+.about {
+    background-color: #374955;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+/**/
+
+/*info Container*/
+.infoContainer {
+    background-color: #31414b;
+    border: 2px solid #F62A66;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px 3px rgba(0, 0, 0, 0.4);
+    margin: auto;
+}
+/**/
+
+/*Info*/
+.info {
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.quien {
+    font-size: 40px;
+    text-align: center;
+    font-weight: 700;
+    color: #FFD933;
+}    
+
+.description {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+}
+/**/
+
+/*media querys*/
+@media screen and (min-width: 768px) {
+    /*About*/
+    .about {
+        padding: 80px;
+    }
+    /**/
+
+    /*Info*/
+    .info {
+        padding: 60px 40px;
+    }
+
+    .quien {
+        font-size: 60px;
+    }    
+    
+    .description {
+        font-size: 22px;
+    }
+    /**/
+}
+
+@media screen and (min-width: 1024px) {
+    /*Info*/
+    .info {
+        padding: 80px 60px;
+    }
+
+    .quien {
+        font-size: 80px;
+    }    
+    
+    .description {
+        font-size: 28px;
+    }
+    /**/
+}
+
+@media screen and (min-width: 1440px) {
+    /*About*/
+    .about {
+        padding: 160px;
+    }
+    /**/
+
+    /*Info*/
+    .info {
+        padding: 40px 40px;
+    }
+
+    .quien {
+        font-size: 60px;
+    }    
+    
+    .description {
+        font-size: 30px;
+    }
+    /**/
+}

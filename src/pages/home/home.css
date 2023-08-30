@@ -1,0 +1,6 @@
+/*Home Styling*/
+.home {
+    background: #374955;     
+    position: relative;
+    z-index: 1;
+}

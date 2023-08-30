@@ -1,0 +1,183 @@
+/*Gral options*/
+.education {
+    background-color: #374955;
+    height: 100vh;
+    padding: 60px 20px;
+}
+
+.edTitle {
+    font-size: 40px;
+    font-weight: 700;
+    color: #FFD933;
+}
+
+.edSubtitle {
+    font-size: 20px;
+    font-weight: 500;
+    color: #F62A66;
+}
+
+.edSpan {
+    color: #151c21;
+}
+/**/
+
+/*School*/
+.school {
+    background-color: #31414b;
+    border: 2px solid #F62A66;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px 3px rgba(0, 0, 0, 0.4);
+    margin: 20px 0;
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+/**/
+
+/*Education Container*/
+.educationContainer {
+    background-color: #31414b;
+    border: 2px solid #F62A66;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px 3px rgba(0, 0, 0, 0.4);
+    margin: 20px 0;
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+/**/
+
+/*Cv*/
+.curriculumContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.curriculum {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #FFD933;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.curriculum:hover {
+    color: #F62A66;
+}
+/**/
+
+/*Media querys*/
+@media screen and (min-width: 768px){
+    /*Gral options*/
+    .edTitle {
+        font-size: 40px;
+    }
+    
+    .edSubtitle {
+        font-size: 20px;
+    }
+    
+    .edSpan {
+        font-size: 16px;
+    }
+    /**/
+
+    /*Gral container*/
+    .gralContainer {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    /**/
+
+    /*School*/
+    .school {
+        margin: 40px 0;
+        padding: 40px;
+    }
+    /**/
+
+    /*Education Container*/
+    .educationContainer {
+        margin: 40px 0px;
+        padding: 40px;
+    }
+    /**/
+
+    /*Curriculum*/
+    .curriculum {
+        font-size: 26px;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    /*Gral options*/
+    .edTitle {
+        font-size: 60px;
+    }
+    
+    .edSubtitle {
+        font-size: 30px;
+    }
+    
+    .edSpan {
+        font-size: 18px;
+    }
+    /**/
+
+    /*School*/
+    .school {
+        margin: 60px 0;
+        padding: 40px;
+    }
+    /**/
+
+    /*Education Container*/
+    .educationContainer {
+        margin: 60px 0px;
+        padding: 40px;
+    }
+    /**/
+
+    /*Curriculum*/
+    .curriculum {
+        font-size: 26px;
+    }
+}
+
+@media screen and (min-width: 1440px){
+    /*Gral options*/
+    .edTitle {
+        font-size: 50px;
+    }
+    
+    .edSubtitle {
+        font-size: 30px;
+    }
+    
+    .edSpan {
+        font-size: 22px;
+    }
+    /**/
+
+    /*School*/
+    .school {
+        margin: 30px 0;
+        padding: 60px;
+    }
+    /**/
+
+    /*Education Container*/
+    .educationContainer {
+        margin: 30px 0px;
+        padding: 60px;
+    }
+    /**/
+}

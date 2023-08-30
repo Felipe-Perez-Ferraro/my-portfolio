@@ -1,0 +1,321 @@
+* {
+  text-decoration: none;
+}
+
+.navigation {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*butotn links*/
+.buttonLink {
+  position: absolute;
+  margin: 10px 10px;
+  padding: 10px 20px;
+  font-size: 10px;
+  text-decoration: none;
+  font-weight: 700;
+  background-color: transparent;
+  color: #FFD933;
+  border: 2px solid #FFD933;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: 0.5s ease-out;
+  text-align: center;
+}
+
+.buttonLink::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: #FFD933;
+  transition: 0.3s ease-out;
+  clip-path: circle(0% at 50% 50%);
+  z-index: -1;
+}
+
+.buttonLink:hover::before {
+  clip-path: circle(100% at 50% 50%);
+}
+
+.link {
+  color: #FFD933;
+}
+
+.link:hover {
+  color: #374955;
+}
+
+.aboutLink {
+  top: 0;
+  left: 0;
+}
+
+.projectsLink {
+  top: 0;
+  right: 0;
+}
+
+.educationLink {
+  bottom: 0;
+  right: 0;
+}
+
+.skillsLink {
+  bottom: 0;
+  left: 0;
+}
+/****************************************/
+
+/*presentation*/
+.presentation {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.pr__tittle {
+  font-size: 28px;
+  color: #F62A66;
+  font-weight: 500;
+}
+
+.pr__name {
+  color: #1e282e;
+  font-size: 28px;
+  font-weight: 600;
+  width: 100%;
+}
+
+.yellowLetter {
+  color: #FFD933;
+  font-size: 30px;
+}
+
+.pr__paragraph {
+  color: #F62A66;
+  font-size: 20px;
+  font-weight: 500;
+}
+/**********************/
+
+/*Social media links*/
+.social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 10px;
+}
+
+.socialLink {
+  font-size: 30px;
+  color: #FFD933;
+  transition: 0.3s ease-out;
+}
+
+.socialLink:hover {
+  color: #F62A66;
+  transform: translateY(-5px);
+}
+
+.social::before {
+  content: '';
+  height: 2px;
+  width: 50px;
+  background-color: #FFD933;
+}
+
+.social::after {
+  content: '';
+  height: 2px;
+  width: 50px;
+  background-color: #FFD933;
+}
+/*********************************/
+
+/*Media Querys*/
+@media screen and (min-width: 375px) {
+  /*Buttons Link*/
+  .buttonLink {
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  }
+  /*************/
+
+  /*Presentation*/
+  .pr__tittle {
+      font-size: 30px;
+  }
+  .pr__name {
+      font-size: 30px;
+  }
+  .pr__paragraph{
+      font-size: 24px;
+  }
+
+  .yellowLetter {
+      font-size: 32px;
+  }
+  /*************/
+
+  /*Social Links*/
+  .socialLink {
+      font-size: 36px;
+  }
+  /**************/
+}
+
+@media screen and (min-width: 425px) {
+  /*Buttons Link*/
+  .buttonLink {
+  font-size: 14px;
+  }
+  /*************/
+
+  /*Presentation*/
+  .pr__tittle {
+      font-size: 32px;
+  }
+  .pr__name {
+      font-size: 32px;
+  }
+  .pr__paragraph{
+      font-size: 26px;
+  }
+
+  .yellowLetter {
+      font-size: 34px;
+  }
+  /*************/
+
+  /*Social Links*/
+  .socialLink {
+      font-size: 40px;
+  }
+  /**************/
+}
+
+@media screen and (min-width: 768px) {
+  /*Buttons Link*/
+  .buttonLink {
+  font-size: 16px;
+  }
+  /*************/
+
+  /*Presentation*/
+  .pr__tittle {
+      font-size: 40px;
+  }
+  .pr__name {
+      font-size: 40px;
+  }
+  .pr__paragraph{
+      font-size: 34px;
+  }
+
+  .yellowLetter {
+      font-size: 42px;
+  }
+  /*************/
+
+  /*Social Links*/
+  .socialLink {
+      font-size: 44px;
+  }
+  /**************/
+}
+
+@media screen and (min-width: 1024px) {
+  /*Buttons Link*/
+  .buttonLink {
+  font-size: 18px;
+  }
+  /*************/
+
+  /*Presentation*/
+  .pr__tittle {
+      font-size: 48px;
+  }
+  .pr__name {
+      font-size: 48px;
+  }
+  .pr__paragraph{
+      font-size: 38px;
+  }
+
+  .yellowLetter {
+      font-size: 50px;
+  }
+  /*************/
+
+  /*Social Links*/
+  .socialLink {
+      font-size: 44px;
+  }
+  /**************/
+}
+
+@media screen and (min-width: 1440px) {
+  /*Buttons Link*/
+  .buttonLink {
+  font-size: 22px;
+  }
+  /*************/
+
+  /*Presentation*/
+  .pr__tittle {
+      font-size: 56px;
+  }
+  .pr__name {
+      font-size: 56px;
+  }
+  .pr__paragraph{
+      font-size: 46px;
+  }
+
+  .yellowLetter {
+      font-size: 56px;
+  }
+  /*************/
+
+  /*Social Links*/
+  .socialLink {
+      font-size: 52px;
+  }
+  /**************/
+}
+
+@media screen and (min-width: 2560px) {
+  /*Buttons Link*/
+  .buttonLink {
+  font-size: 40px;
+  }
+  /*************/
+
+  /*Presentation*/
+  .pr__tittle {
+      font-size: 90px;
+  }
+  .pr__name {
+      font-size: 100px;
+  }
+  .pr__paragraph{
+      font-size: 96px;
+  }
+
+  .yellowLetter {
+      font-size: 110px;
+  }
+  /*************/
+
+  /*Social Links*/
+  .socialLink {
+      font-size: 90px;
+  }
+  /**************/
+}
